@@ -1,5 +1,5 @@
 # version 8 of node
-FROM node:8
+FROM balenalib/raspberrypi3-node:8
 
 # create a directory for client
 RUN mkdir -p /usr/src/app
